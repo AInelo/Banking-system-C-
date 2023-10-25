@@ -244,7 +244,7 @@ void display_all()
 	}
 	cout<<"\n\n\t\tLISTE DES TITULAIRES DE COMPTES_BANCAIRES\n\n";
 	cout<<"!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!========\n";
-	cout<<"A/c no.      NOM           Type Solde\n";
+	cout<<"A/c no.      NOM           Type Solde du compte\n";
 	cout<<"!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!========\n";
 	while(inFile.read(reinterpret_cast<char *> (&ac), sizeof(Bank_Account)))
 	{
