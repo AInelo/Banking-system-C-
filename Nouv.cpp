@@ -21,7 +21,7 @@ public:
 	void Updation();
 	char rettype() const;
 	void draw(int);
-};
+};      
 
 
 void Bank_Account::Updation()
