@@ -5,7 +5,6 @@
 using namespace std;
 class Bank_Account
 {
-	        
 	int Money_Deposit;
 	char type;
 	int acno;
