@@ -51,9 +51,6 @@ void Bank_Account::create_Bank_Account()
 	cout<<"\n\n\tCompte_bancaire cree..";
 }
 
-
-
-
 void Bank_Account::Display_Account() const
 {
 	cout<<"\n\tBank_Account No. : "<<acno;
@@ -66,7 +63,6 @@ int Bank_Account::retacno() const
 {
 	return acno;
 }
-
 
 
 char Bank_Account::rettype() const
