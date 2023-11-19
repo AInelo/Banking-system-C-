@@ -5,7 +5,6 @@
 using namespace std;
 class Bank_Account
 {
-	        
 	int Money_Deposit;
 	char type;
 	int acno;
@@ -64,7 +63,6 @@ int Bank_Account::retacno() const
 {
 	return acno;
 }
-
 
 
 char Bank_Account::rettype() const
@@ -334,5 +332,4 @@ void Money_Deposit_withdraw(int n, int option)
     File.close();
 	if(found==false)
 		cout<<"\n\n\tEnregistrement non trouve ";
-
 }
